@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+  <session-factory>
+   <!-- Mappings -->
+      <mapping package="com.bayport.domain" />
+      <mapping class="com.bayport.domain.MasterLookUpType" />
+      <mapping class="com.bayport.domain.MasterLookUpTypeValue" />
+      <mapping class="com.bayport.domain.StagingAgent" />
+      <mapping class="com.bayport.domain.StagingPerson" />
+      <mapping class="com.bayport.domain.StagingAddress" />
+      <mapping class="com.bayport.domain.StagingContactNumber" />
+      <mapping class="com.bayport.domain.StagingEmailAddress" />
+      <mapping class="com.bayport.domain.StagingBankAccount" />
+  </session-factory>
+
+</hibernate-configuration>
